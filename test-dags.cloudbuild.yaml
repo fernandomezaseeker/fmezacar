@@ -12,3 +12,4 @@ steps:
   - name: python:3.8-slim
     entrypoint: python3.8
     args: ["-m", "pytest", "-s", "dags/"]
+logsBucket: 'gs://sap-bw-backup'
