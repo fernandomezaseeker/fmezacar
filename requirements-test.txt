@@ -1,2 +1,1 @@
-pytest==7.0.1
-cloud-composer-dag-test-utils==1.0.0
+pytest

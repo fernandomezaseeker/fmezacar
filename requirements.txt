@@ -1,2 +1,1 @@
-apache-airflow==2.3.3
-yfinance>=0.2.1
+apache-airflow
