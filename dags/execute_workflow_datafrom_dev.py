@@ -90,4 +90,4 @@ with DAG(
             "compilation_result": "{{ task_instance.xcom_pull('create-compilation-result')['name'] }}"
         },
     )
-    start >> create_compilation_result >> create_workflow_invocation >> end
+    start >> create_compilation_result >> create_workflow_invocation >> end 
